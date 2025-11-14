@@ -25,6 +25,20 @@
 	border-right: 1px solid #000000;
 }
 
+.topContainer {
+	display: flex;
+	flex-direction: column;
+	row-gap: 50px;
+}
+
+.formTitle {
+	font-family: 'Open Sans', 'Inter', sans-serif;
+	font-weight: 800;
+	font-size: 31px;
+	line-height: 100%;
+	color: #000000;
+}
+
 .bottomContainer {
 	display: flex;
 	justify-content: space-between;
