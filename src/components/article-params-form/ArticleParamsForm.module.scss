@@ -25,6 +25,12 @@
 	border-right: 1px solid #000000;
 }
 
+.topContainer {
+	display: flex;
+	flex-direction: column;
+	row-gap: 50px;
+}
+
 .bottomContainer {
 	display: flex;
 	justify-content: space-between;
