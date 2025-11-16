@@ -55,7 +55,7 @@ export const ArticleParamsForm = (props: ArticleParamsFormProps) => {
 		isOpen: stateParams.isOpen,
 		rootRef,
 		onChange: () =>
-			setStateParams((prev) => ({ ...prev, isOpen: !prev.isOpen })),
+			setStateParams((prev) => ({ ...prev, isOpen: (prev.isOpen = false) })),
 	});
 
 	const FontFamilyProps = {
